@@ -1,6 +1,6 @@
 def main():
     #write your code below this line
-    words = []
+    count = 0
 
     while True:
         word = input("")
@@ -8,9 +8,9 @@ def main():
         if not word:
             break
 
-        words.append(word)
+        count += 1
 
-    print(len(words))
+    print(count)
 
 if __name__ == '__main__':
     main()
